@@ -4,7 +4,7 @@ Install this skill once, and ChatGPT walks you through building a website that l
 
 ![Websites built with the 10K Websites skill, each with an opening scene that plays as you scroll](docs/demo.gif)
 
-Every site opens with a short film that plays as you scroll, and the headline moves with the film.
+Choose an image-led website with no video, or a cinematic version with an opening film and moving headline.
 
 ---
 
@@ -13,11 +13,11 @@ Every site opens with a short film that plays as you scroll, and the headline mo
 - **Lets you choose how far to go.** Pick **Full throttle** (the strongest models for every step), **Studio** (the strongest model for the design decisions, the everyday model for routine building) or **Focused budget** (the best result for an amount you set). Every level builds a complete, original website.
 - **Asks a few simple questions.** It works for your own business or for a client.
 - **Researches your real customers** in reviews and forums, then writes your site in the words they actually use.
-- **Pitches your opening scene like a film director:** a short story with a real event in it, with the whole page designed around it.
+- **Builds an original visual direction** around the business, with a film story only when you choose cinematic mode.
 - **Shows you the whole plan and the exact price** (a scene-by-scene Visual Story) before it spends anything, with room for redos.
-- **Shows you an early preview** of the headline over the images, a lower section and the phone view, before it makes any video.
-- **Lets you review the film in slow motion, frame by frame,** before it builds anything around it.
-- **Makes the headline move with the film.** It can even fix words onto a wall, a table or the ground in the scene, so they move like part of the video.
+- **Shows you an early preview** of the hero, a lower section and the phone view. Video is optional.
+- **Lets you review a film frame by frame** before the final site, when you choose cinematic mode.
+- **In cinematic mode,** it can sync the headline with the film or place words on a wall, table or ground in the scene.
 - **Tests the site in a real browser.** It fixes anything that's hard to read or broken, then scores the site against a $10,000 design checklist.
 - **Plans the phone version from the start.** It also makes your browser icon and share picture.
 - **Puts your site online**, tests it the way Google does, and updates it any time you ask.
@@ -28,8 +28,8 @@ Every site opens with a short film that plays as you scroll, and the headline mo
 | | What | Why |
 |---|---|---|
 | 1 | The **ChatGPT desktop app** (Mac or Windows) with a paid plan. | The skill runs in Codex, the part of ChatGPT that builds things on your computer. |
-| 2 | An **[OpenArt](https://meticsmedia.com/openart-CMAT)*** account with a paid plan | ChatGPT can't make video. OpenArt makes the images and the opening film. The skill quotes the exact price for your site before it makes anything. Full throttle uses the strongest models at high quality and can use several thousand credits for one site. Studio and Focused budget cost less. |
-| 3 | **Hostinger** hosting ([Premium plan, extra 10% off](https://meticsmedia.com/hostinger-CMAT)*) | It puts your site online. The plan includes a free domain for the first year, and ChatGPT uploads the site for you through Hostinger's connector. |
+| 2 | **OpenArt** only if you want generated images or video | Use your own photos to avoid OpenArt generation credits. If you choose generated media, the skill quotes the planned spend and waits for approval. Video can use several thousand credits. |
+| 3 | Hosting | Choose Vercel linked to GitHub, or Hostinger. Check the selected provider's current terms and costs before publishing. Business sites may not qualify for Vercel's free Hobby plan. |
 
 The skill posts these links at the right moment during the build, so you don't need to set anything up in advance.
 
@@ -57,7 +57,7 @@ If you pause or run out of usage, come back to the same chat when your limit res
 Yes. Studio fits Plus best, because it saves the strongest model for the design decisions. Full throttle works too, but it uses the strongest model for every step and can reach your usage limit before the site is finished. Everything is saved, so you can continue after the limit resets.
 
 **How much does a site cost in OpenArt credits?**
-It depends on the level and the story you pick. The skill shows you the exact price, with room for redos, and waits for your OK before it makes anything.
+There is no fixed price. Image-only sites avoid video generation costs; generated images and video are quoted for the chosen models and settings before anything is generated.
 
 **Can I use my own photos?**
 Yes. Drag them in when ChatGPT asks. Phone photos are fine. It keeps your product exactly as it is.
@@ -69,7 +69,7 @@ No. This skill builds showcase websites. Your button can link to a shop or booki
 Yes. Tell the skill the site is for a client. It gives you a preview link to send them and a handover kit at the end.
 
 **Is it really free?**
-The skill is free. You pay for your ChatGPT plan, OpenArt credits for images and video, and hosting.
+The skill is free. Depending on your choices, costs can include your ChatGPT plan, optional OpenArt media credits, and hosting.
 
 ## Credits
 
