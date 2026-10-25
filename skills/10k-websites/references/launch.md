@@ -26,8 +26,8 @@ It runs Lighthouse for phone and desktop (installed once, about 170 MB) and prin
 ## Client mode (Phase 2 asks: your business, or a client's?)
 
 When the site is for a client, three things change:
-1. **The preview link.** Before the client pays for a domain, use an eligible temporary Hostinger address (`deploy.md`, Address and deployment package) so the builder can share a real link. Follow the existing publishing authorization. When the client approves, connect their domain.
-2. **Ownership.** The client's hosting and domain should be in the client's own Hostinger account, with the builder added as a collaborator if Hostinger offers it. Say this plainly: the client owns their site.
+1. **The preview link.** Use a preview deployment from the selected target (Vercel/GitHub or Hostinger). Follow the existing publishing authorization. When the client approves, connect their domain.
+2. **Ownership.** The client's hosting and domain should be in the client's own account, with the builder added as a collaborator if supported. Say plainly that the client owns the site.
 3. **The client kit**, made at the end of Phase 10. Write `.10k/kit.json` from the design package and the plan file (the format is at the top of `tools/kit.mjs`), then run:
 ```sh
 node .10k/tools/kit.mjs .10k/kit.json site client-kit
