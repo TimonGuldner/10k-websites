@@ -1,14 +1,14 @@
 # The Phone Experience
 
-Design the wide and portrait experiences together before committing to final assets. The selected `production_level` controls the resources available, while every level gets a complete, readable phone story. A free crop is useful when it preserves the full journey; it is not automatically the best composition.
+Plan phone and desktop together before final assets. In image-led mode, inspect image crops, type, navigation and CTA at phone width; no film or video tools are needed. In cinematic mode, the film-specific steps below apply. Every production level gets a complete, readable phone experience.
 
 ## Choose the portrait treatment early
 
-Compare the opening, every event and join, and the final reveal in portrait. Include one phone view in the early working visual treatment, with its actual typography, navigation and motion relationship.
+For image-led mode, include a phone view of the actual image crop, typography and navigation in the early visual treatment. For cinematic mode, compare the opening, every event and join, and final reveal in portrait, including the actual typography and film relationship.
 
-- **Crop:** use `encode.mjs --mobile --focus <0..1>` when all beats retain their subject, action and text space. Inspect the entire encoded portrait film, not just its poster.
-- **Dedicated portrait:** recompose and generate the story for a tall screen when it materially improves scale, motion, subject clarity or type. In Full throttle, plan this inside the approved production allowance whenever it improves the experience, even if a crop technically fits. Follow the current image/video model and quality policy; do not impose a separate cheaper phone model or 720p generation ceiling.
-- **Designed still:** use the static hero in `engine.md` for reduced motion, unavailable video, or a deliberate production choice. It must read as a finished composition, with useful copy and action.
+- **Crop:** in image-led mode, test the responsive image crop on a phone. In cinematic mode, use `encode.mjs --mobile --focus <0..1>` only when all film beats retain their subject, action and text space.
+- **Dedicated portrait:** generate a tall-screen image when it materially improves clarity in image-led mode. In cinematic mode, recompose the film when it materially improves scale, motion or type. Include any generation in the approved allowance.
+- **Designed still:** in image-led mode, the still is the main hero, not a fallback. In cinematic mode, use a designed static hero for reduced motion or unavailable video. It must read as a finished composition with useful copy and action.
 
 The user approves the production plan once. Do not reopen routine portrait costs already covered; present a concrete revision if dedicated generation would exceed the approved scope or allowance.
 
