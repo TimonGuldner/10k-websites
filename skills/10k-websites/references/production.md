@@ -4,17 +4,17 @@ Read when agreeing the production level or restoring a build without one. This i
 
 ## Choose once, carry forward
 
-Offer **Full throttle**, **Studio**, and **Focused budget**. Recommend Full throttle for maximum quality/best-model/no-budget-limit briefs. Recommend Studio for a user balancing ambition and cost; Focused budget for an explicit ceiling. Never infer approval to spend the account balance. Record `production_level: full-throttle | studio | focused` in `.10k/plan.md` alongside the actual approvals. If earlier logs only contain `MODE=astra/save`, ask about production level only if the user's existing preferences do not resolve it.
+Offer **Full throttle**, **Studio**, and **Focused budget** independently of the visual mode. Recommend Full throttle for maximum quality/best-model/no-budget-limit briefs, Studio for ambition balanced with cost, and Focused budget for an explicit ceiling. Also record `visual_mode: image-led | cinematic`; default to image-led/no-video unless the user asks for a film. Never infer approval to spend the account balance. Record both choices in `.10k/plan.md` alongside actual approvals. If earlier logs only contain `MODE=astra/save`, ask about production level only if the user's existing preferences do not resolve it.
 
-All levels get original direction, readable motion, accessibility and a working website. The level changes model choice, production depth and iteration resources. Do not present the budget option as a deliberately generic design.
+All levels get original direction, a polished working website, responsive design and accessibility. The visual mode decides whether video exists; the production level changes model choice, production depth and iterations. Image-led/no-video is a complete first-class result, not a downgrade. Do not present the budget option as a deliberately generic design.
 
 | Decision | Full throttle | Studio | Focused budget |
 |---|---|---|---|
 | GPT | Top current GPT for the entire workflow and every delegated task | Top GPT for direction and creative judgment; agreed capable everyday GPT for routine execution | Agreed efficient GPT, allocating stronger review where useful |
 | Image generation | Strongest current suitable generation/editing model, high quality by default | Strong model/settings, premium for visibly important assets | Best suitable quality inside the ceiling |
-| Video generation | Strongest currently suitable flagship, assessed from latest Seedance/successor and current alternatives | Strong realistic motion and control, premium where justified | Reliable suitable model balancing quality and cost |
+| Video generation | Only in cinematic mode: strongest suitable flagship, assessed from current alternatives | Only in cinematic mode: suitable motion model, premium when justified | Only in cinematic mode: reliable model inside the ceiling; image-led mode uses no video |
 | Exploration | Include a curated comparison of meaningfully different visual treatments and directed refinements | Explore the consequential design choices | Concentrate on one strong direction |
-| Phone | Plan portrait storytelling early, including separate assets when materially better | Plan early; crop or portrait according to result and quote | Compose the master carefully for both; quote exceptions |
+| Phone | Plan responsive image and film composition early; use separate portrait assets when materially better | Plan early; crop or portrait according to result and quote | Compose responsive assets carefully for both; quote exceptions |
 
 ## Resolve the GPT model separately from media
 
@@ -24,17 +24,17 @@ In Full throttle the top GPT handles research, concepts, storyboards, generation
 
 If top-model access or usage prevents continuation, preserve the work and offer waiting/access recovery or an explicit user-selected change. A usage threshold never silently converts Full throttle into Studio. Show actual duration/reset information; OpenArt balance and GPT limits are unrelated.
 
-## Resolve the image and video models independently
+## Resolve only the media models the selected mode needs
 
-Discover the live OpenArt model catalogue, exact forms and quotes. Begin the Full throttle video assessment with the latest suitable Seedance-family flagship or successor, then consider stronger alternatives supported by current evidence. Select the strongest image model for the required generation/editing and reference fidelity separately. Newest, most expensive, or highest resolution alone does not prove superiority. Catalogue fields prove capabilities, not ratings.
+Use user-provided assets without connecting OpenArt. If the user approves generated stills, discover the live OpenArt image catalogue, exact forms and quotes. Discover video models only for cinematic mode; begin the Full throttle assessment with the latest suitable Seedance-family flagship or successor, then consider current evidenced alternatives. Never search, quote or generate video for image-led mode. Newest, most expensive, or highest resolution alone does not prove superiority. Catalogue fields prove capabilities, not ratings.
 
 Use current provider documentation, credible comparable quality evidence and the actual shot requirements. If evidence is inconclusive and the difference matters, run a small comparison on the real scene when covered by the approval, or quote it first. Judge the hardest detail at matched scale and verify identity/composition using [visual-validation.md](visual-validation.md). State uncertainty honestly; do not label an untested model the universal best. Record model IDs, date, required controls, exact settings and why they suit the scene. Respect an explicitly requested model unless unavailable/incompatible; discuss that rather than substituting silently.
 
-Full throttle uses high-quality settings by default. Higher-resolution masters are allowed when composition, texture, output size or portrait reframing benefits. Do not apply an arbitrary per-clip ceiling, medium-quality default or blanket 4K ban. Source quality and web delivery are separate: retain masters and encode responsive lightweight assets. A costly model that cannot perform the planned shot needs a revised method/model, not hidden compromise.
+For generated media, Generated media uses high-quality settings by default in Full throttle. Higher-resolution masters are allowed when composition, texture, output size or portrait reframing benefits. Do not apply an arbitrary per-clip ceiling, medium-quality default or blanket 4K ban. Source quality and web delivery are separate: retain masters and encode responsive lightweight assets. A costly model that cannot perform the planned shot needs a revised method/model, not hidden compromise.
 
 ## Approve a concrete production allowance
 
-After selecting a concept, quote exact planned settings and references: visual exploration, keyframes, clips, supporting photos, phone treatment and a correction allowance. Show the total and actual balance once. Full throttle expands resources; it does not automatically authorize new purchases, unlimited retries or unrelated work. If the user explicitly chooses no fixed ceiling, still disclose the next concrete batch and obtain its spending authorization before generation. Do not force a lower tier or a cheaper concept merely because their current balance needs a top-up.
+After selecting a concept, quote exact planned settings and references for the selected mode: still-image exploration and supporting pictures; add keyframes, clips and film corrections only in cinematic mode. Include phone treatment and a correction allowance. Show the total and actual balance once. Full throttle expands resources; it does not automatically authorize new purchases, unlimited retries or unrelated work. If the user explicitly chooses no fixed ceiling, still disclose the next concrete batch and obtain its spending authorization before generation. Do not force a lower tier or a cheaper concept merely because their current balance needs a top-up.
 
 One approval covers the disclosed batch and revisions within its allowance, including expensive models. Preflight exact calls and check funds privately; give short updates for meaningful changes rather than a new permission question for every call. Small price drift inside the overall allowance is covered. A larger total, new paid scope, changed model preference or exhausted allowance needs a concrete updated choice. The user tops up or purchases; the agent never does so for them.
 
