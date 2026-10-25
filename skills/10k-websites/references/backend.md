@@ -1,15 +1,14 @@
-# The Real Backend (optional, free on every Hostinger plan)
+# Hostinger PHP inbox (optional)
 
-A static site can only send form messages somewhere else. This module gives the site its own backend on the same hosting: accepted form submissions are saved, email notifications can be configured and verified, and the owner has a private inbox page to read, answer, mark done and download everything as a spreadsheet. It needs PHP on a compatible Hostinger plan and deploys with the same site archive. Verify the selected plan supports it; notification mailbox availability and cost are separate. It stores messages in SQLite when the server has it and in a locked data file when it does not, so storage can work with either server capability. Admin activation and email delivery still need separate checks.
+This module is only for a compatible Hostinger PHP plan. It saves submissions, supports a private inbox and can send email notifications. It is not compatible with Vercel's static deployment path. For Vercel, offer an email link or a separately selected form/backend service; do not copy this PHP module into a Vercel deployment. Verify current hosting support and costs before using this module.
 
 ## When to offer it
 
-At the form decision in Phase 8, as one of the choices:
-1. **A real inbox on your own website** (Recommended for real businesses): messages saved on your hosting, an email for each one, and a private inbox page.
-2. An email link (opens the visitor's email app).
-3. A free form service (Formspree), which needs an account.
-4. A link to an existing booking or checkout page.
-5. A demo-only success message (invented brands).
+At the form decision in Phase 8, offer only options compatible with the chosen deployment target:
+1. **Hostinger:** this real inbox module, an email link, or an external form service.
+2. **Vercel:** an email link, an external form service, or a separately scoped backend service. This PHP inbox does not run on Vercel.
+3. A link to an existing booking or checkout page.
+4. A demo-only success message for invented brands.
 
 Say in one line what the real inbox is not: it is not online payments, customer accounts or a booking calendar that blocks dates. Those are bigger projects.
 
