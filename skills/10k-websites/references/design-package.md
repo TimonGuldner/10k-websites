@@ -1,6 +1,6 @@
 # The Design Package
 
-Written in Phase 5 and saved as `.10k/design-package.md`. One living document that records the creative plan before generation and the approved decisions as production progresses. The build in Phase 8 consumes it directly. Save it for continuity without making the user open a new chat. If a handoff is needed, the next agent should have enough context here to continue.
+Written in Phase 5 and saved as `.10k/design-package.md`. Record `visual_mode: image-led | cinematic` at the top; one living document captures the creative plan before generation and approved decisions as production progresses. The build in Phase 8 consumes it directly. Save it for continuity without making the user open a new chat. If a handoff is needed, the next agent should have enough context here to continue.
 
 Two rules govern it:
 
@@ -9,13 +9,13 @@ Two rules govern it:
 
 A single-scene hero (video or depth) gets the same package, trimmed: fewer bands, same sections.
 
-The user sees a concise **Visual Story** and an early working visual treatment, rather than needing to read the production document. Keep them in sync: each story row maps to a band or section with the same words. The treatment shows the hero, a representative lower section and a phone view with actual typography and intended movement. Incorporate it into the existing creative gates and carry approvals forward.
+The user sees a concise **Visual Story** and an early working visual treatment, rather than needing to read the production document. Keep them in sync: each story row maps to a section with the same words. Show the image-led hero or cinematic hero, a representative lower section and a phone view. Film movement is part of the treatment only in cinematic mode. Incorporate it into the existing creative gates and carry approvals forward.
 
 ## 0. The page backbone
 
 The visitor's job (from `design.md`), the section list written as sentences, the signature element, the page's climax and its supporting moments.
 
-Record `production_level` (`focused`, `studio` or `full-throttle`), the selected current GPT model and reasoning setting, image and video models with selection evidence, the approved cost estimate, creative exploration and repair allowance, and the mobile plan. Full throttle keeps the strongest current GPT available throughout and uses the strongest current suitable photo/video models at high-quality settings. Track approval and actual spend separately from ChatGPT usage limits; never silently downgrade.
+Record `visual_mode` (`image-led` or `cinematic`), `deploy_target` (`vercel` or `hostinger`), `production_level` (`focused`, `studio` or `full-throttle`), the selected GPT model, only the media models used, approved costs, exploration/repair allowance and responsive plan. Full throttle keeps the strongest current GPT available throughout and uses the strongest current suitable photo/video models at high-quality settings. Track approval and actual spend separately from ChatGPT usage limits; never silently downgrade.
 
 ## 1. The brand premise
 
