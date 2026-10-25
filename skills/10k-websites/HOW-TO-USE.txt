@@ -9,12 +9,11 @@ Build a website:
 1. Create a new empty folder for your website and open it in Codex.
 2. Start a new chat, type /  and pick 10k-websites. Send it. No other instructions needed.
 
-ChatGPT will check your setup, ask you a few questions about your business,
-offer Focused budget, Studio, or Full throttle production, design your site,
-create its imagery and opening film, and put it live on a free Hostinger address or your domain.
-Full throttle uses the top available GPT throughout and the strongest suitable
-image/video models with high-quality settings and room for refinement.
-You choose the direction and approve the visuals and spending; the AI handles the work.
+ChatGPT will check your setup, ask about your business, desired visitor action,
+visual mode (no video or cinematic), imagery, hosting and production level, then design your site,
+create an image-led site with no video or, if you choose, an opening film; then publish through Vercel/GitHub or Hostinger.
+Full throttle uses the top available GPT throughout. It uses strong image models when you approve generated images and strong video models only in cinematic mode.
+You choose the direction and approve generated media and its budget; no paid generation starts without your approval.
 The skill stays installed, so you can do this again for every new website.
 
 Paused or ran out of usage? Return to the same chat when access is available and
